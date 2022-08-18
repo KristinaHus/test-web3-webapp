@@ -4,7 +4,40 @@
 
 .App-logo {
   height: 40vmin;
+  margin-bottom: 60px;
   pointer-events: none;
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #498097;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #34687e;
+}
+
+.link {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.link:hover {
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.input {
+  height: 25px;
+  min-width: 400px;
+  margin-left: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,11 +61,24 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+p {
+  margin: 5px 0;
+  text-align: start;
+}
+
+.row {
+  display: flex;
+}
+
+.offsetLeft {
+  margin-left: 15px;
 }
